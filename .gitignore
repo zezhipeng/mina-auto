@@ -1,0 +1,9 @@
+node_modules
+app.js
+mina-config.js
+yarn-error.log
+utils
+static
+pages
+dist
+style
