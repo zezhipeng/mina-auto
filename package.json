@@ -1,9 +1,8 @@
 {
   "name": "mina-auto",
-  "version": "1.1.5",
+  "version": "1.1.8",
   "description": "微信小程序脚手架",
-  "preferGlobal": true,
-  "main": "./build/index.js",
+  "main": "index.js",
   "scripts": {
     "dev": "node ./build/build.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -28,11 +27,9 @@
   "author": "zezhipeng",
   "license": "MIT",
   "dependencies": {
-    "fs-extra": "^3.0.1"
-  },
-  "devDependencies": {
     "commander": "^2.9.0",
     "download-git-repo": "^1.0.1",
+    "ora": "^1.2.0",
     "shelljs": "^0.7.7"
   }
 }
